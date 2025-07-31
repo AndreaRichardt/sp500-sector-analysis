@@ -49,54 +49,54 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 ## Insights Deep Dive
 
-### Category 1: Market Valuation and Growth Metrics
+### Market Valuation and Growth Metrics
 
-**Main Insight 1:** Information Technology trades at a significant premium with an average P/E ratio of 39.68, nearly 75% higher than the market average of 22.79. This reflects strong growth expectations but creates valuation risk if earnings disappoint. The sector's growth estimate of 101.16% supports the premium but requires careful monitoring.
+**Technology Premium Valuations:** Information Technology trades at a significant premium with an average P/E ratio of 39.68, nearly 75% higher than the market average of 22.79. This reflects strong growth expectations but creates valuation risk if earnings disappoint. The sector's growth estimate of 101.16% supports the premium but requires careful monitoring.
 
-**Main Insight 2:** Telecommunications presents an anomaly with the lowest P/E ratio at 11.19, potentially indicating either deep value or structural decline. With only 3 companies in our universe and a growth estimate of 54.58%, this sector warrants strategic evaluation for contrarian positioning.
+**Telecommunications Value Anomaly:** Telecommunications presents an anomaly with the lowest P/E ratio at 11.19, potentially indicating either deep value or structural decline. With only 3 companies in our universe and a growth estimate of 54.58%, this sector warrants strategic evaluation for contrarian positioning.
 
-**Main Insight 3:** Consumer Discretionary commands the second-highest P/E at 25.68 with the highest growth estimate at 187.77%, suggesting investors are betting heavily on economic recovery and consumer spending normalization. The 79-company representation provides good diversification within the sector.
+**Consumer Discretionary Growth Betting:** Consumer Discretionary commands the second-highest P/E at 25.68 with the highest growth estimate at 187.77%, suggesting investors are betting heavily on economic recovery and consumer spending normalization. The 79-company representation provides good diversification within the sector.
 
-**Main Insight 4:** Financials trade at an attractive valuation with a P/E of 17.66, below market average, while maintaining solid earnings per share of $5.19. This suggests potential undervaluation given the sector's fundamental strength and 64-company diversification.
+**Financial Sector Undervaluation:** Financials trade at an attractive valuation with a P/E of 17.66, below market average, while maintaining solid earnings per share of $5.19. This suggests potential undervaluation given the sector's fundamental strength and 64-company diversification.
 
 ![P/E Ratios by Sector](images/pe_ratio_by_sector.png)
 *Average P/E by Sector - Top 3 highlighted: Information Technology (39.68), Health Care (26.28), Consumer Discretionary (25.68)*
 
-### Category 2: Income Generation and Dividend Analysis
+### Income Generation and Dividend Analysis
 
-**Main Insight 1:** Telecommunications leads dividend generation with an exceptional 7.57% average yield, anchored by CenturyLink's 12.66% yield. However, the high yield may signal dividend sustainability concerns given the sector's low growth profile and minimal market representation.
+**Telecommunications Yield Leadership:** Telecommunications leads dividend generation with an exceptional 7.57% average yield, anchored by CenturyLink's 12.66% yield. However, the high yield may signal dividend sustainability concerns given the sector's low growth profile and minimal market representation.
 
-**Main Insight 2:** Real Estate delivers strong income with a 3.89% average yield, led by Kimco Realty at 7.71%. The sector's 33-company representation and moderate volatility (34.68%) make it attractive for income-focused allocations while providing inflation protection.
+**Real Estate Income Strength:** Real Estate delivers strong income with a 3.89% average yield, led by Kimco Realty at 7.71%. The sector's 33-company representation and moderate volatility (34.68%) make it attractive for income-focused allocations while providing inflation protection.
 
-**Main Insight 3:** Utilities maintain their defensive income profile with a 3.72% yield, topped by SCANA Corp at 6.68%. The sector's low volatility (31.53%) and consistent EBITDA margins (47.11%) support dividend sustainability and capital preservation objectives.
+**Utilities Defensive Profile:** Utilities maintain their defensive income profile with a 3.72% yield, topped by SCANA Corp at 6.68%. The sector's low volatility (31.53%) and consistent EBITDA margins (47.11%) support dividend sustainability and capital preservation objectives.
 
-**Main Insight 4:** Energy offers attractive income at 3.49% yield despite sector headwinds, with ONEOK leading at 5.44%. The sector's small 8-company representation concentrates risk but may provide value opportunities for selective investors.
+**Energy Sector Opportunities:** Energy offers attractive income at 3.49% yield despite sector headwinds, with ONEOK leading at 5.44%. The sector's small 8-company representation concentrates risk but may provide value opportunities for selective investors.
 
 ![Dividend Yields by Sector](images/dividend_yield_by_sector.png)
 *Average Dividend Yield by Sector - Top 3 highlighted: Telecommunication Services (7.57%), Real Estate (3.89%), Utilities (3.72%)*
 
-### Category 3: Risk Assessment and Volatility Patterns
+### Risk Assessment and Volatility Patterns
 
-**Main Insight 1:** Consumer Discretionary exhibits the highest volatility at 59.28%, reflecting sensitivity to economic cycles and consumer confidence. The sector's 79-company count provides diversification, but position sizing should account for elevated risk during market stress periods.
+**Consumer Discretionary Cyclical Risk:** Consumer Discretionary exhibits the highest volatility at 59.28%, reflecting sensitivity to economic cycles and consumer confidence. The sector's 79-company count provides diversification, but position sizing should account for elevated risk during market stress periods.
 
-**Main Insight 2:** Information Technology shows significant volatility at 54.61% despite its large market presence. The combination of high valuation (39.68 P/E) and high volatility creates compound risk that requires active management and careful entry points.
+**Technology Sector Compound Risk:** Information Technology shows significant volatility at 54.61% despite its large market presence. The combination of high valuation (39.68 P/E) and high volatility creates compound risk that requires active management and careful entry points.
 
-**Main Insight 3:** Telecommunications presents unusual risk characteristics with 56.32% volatility despite low growth expectations. This suggests structural uncertainty within the sector that may not be adequately reflected in its low valuation metrics.
+**Telecommunications Structural Uncertainty:** Telecommunications presents unusual risk characteristics with 56.32% volatility despite low growth expectations. This suggests structural uncertainty within the sector that may not be adequately reflected in its low valuation metrics.
 
-**Main Insight 4:** Utilities and Real Estate demonstrate the lowest volatilities at 31.53% and 34.68% respectively, confirming their defensive characteristics. These sectors provide portfolio anchoring during market turbulence while maintaining reasonable return potential.
+**Defensive Sector Stability:** Utilities and Real Estate demonstrate the lowest volatilities at 31.53% and 34.68% respectively, confirming their defensive characteristics. These sectors provide portfolio anchoring during market turbulence while maintaining reasonable return potential.
 
 ![Volatility vs Price Low Analysis](images/volatility_price_low_scatter.png)
 *Price Low vs Volatility % scatter plot with market cap sizing - showing sector clustering patterns and risk-return relationships*
 
-### Category 4: Capital Efficiency and Investment Optimization
+### Capital Efficiency and Investment Optimization
 
-**Main Insight 1:** Industrials demonstrate superior earnings efficiency with $5.52 EPS, the highest among all sectors, while maintaining reasonable volatility at 45.58%. The sector's 65-company representation and strong EBITDA margins (22.28%) indicate operational excellence across the industrial base.
+**Industrial Sector Excellence:** Industrials demonstrate superior earnings efficiency with $5.52 EPS, the highest among all sectors, while maintaining reasonable volatility at 45.58%. The sector's 65-company representation and strong EBITDA margins (22.28%) indicate operational excellence across the industrial base.
 
-**Main Insight 2:** Materials show strong earnings generation at $5.46 EPS with moderate volatility (41.09%), suggesting efficient capital deployment. However, the sector's limited 23-company representation concentrates exposure and requires careful security selection.
+**Materials Capital Deployment:** Materials show strong earnings generation at $5.46 EPS with moderate volatility (41.09%), suggesting efficient capital deployment. However, the sector's limited 23-company representation concentrates exposure and requires careful security selection.
 
-**Main Insight 3:** Financials generate solid earnings at $5.19 EPS while trading at attractive valuations (17.66 P/E). The sector's 64-company diversification and moderate volatility (39.90%) create an appealing risk-adjusted opportunity for value-oriented strategies.
+**Financial Sector Value Opportunity:** Financials generate solid earnings at $5.19 EPS while trading at attractive valuations (17.66 P/E). The sector's 64-company diversification and moderate volatility (39.90%) create an appealing risk-adjusted opportunity for value-oriented strategies.
 
-**Main Insight 4:** Consumer Discretionary delivers strong earnings at $5.25 EPS despite high volatility, indicating underlying business strength. The sector's premium valuation appears justified by earnings power, though economic sensitivity remains a key risk factor.
+**Consumer Discretionary Earnings Power:** Consumer Discretionary delivers strong earnings at $5.25 EPS despite high volatility, indicating underlying business strength. The sector's premium valuation appears justified by earnings power, though economic sensitivity remains a key risk factor.
 
 ![EPS by Sector](images/eps_by_sector.png)
 *EPS by Sector - Top 3 highlighted: Industrials ($5.52), Materials ($5.46), Consumer Discretionary ($5.25)*
@@ -171,21 +171,21 @@ Based on the insights and findings above, we would recommend the **Portfolio Man
 
 ## Assumptions and Caveats
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Throughout the analysis, several key assumptions were made to manage data challenges and analytical limitations:
 
-**Data Limitations:** This analysis is based on S&P 500 financial data as of July 2020. Market conditions, company fundamentals, and sector dynamics may have changed significantly since the dataset's last update, particularly given major economic events and market shifts in 2020-2025.
+**Data Currency Limitations:** This analysis is based on S&P 500 financial data as of July 2020. Market conditions, company fundamentals, and sector dynamics may have changed significantly since the dataset's last update, particularly given major economic events and market shifts in 2020-2025.
 
-**Assumption 1:** Market capitalization data was used as of most recent reporting date and may not reflect current market values due to price movements since data extraction.
+**Market Valuation Assumptions:** Market capitalization data reflects reporting date values and may not capture current market pricing due to subsequent price movements and market volatility.
 
-**Assumption 2:** Dividend yield calculations assume continuation of current payment policies, though dividend cuts or suspensions could materially impact sector attractiveness, particularly in high-yield sectors like Telecommunications.
+**Dividend Sustainability:** Dividend yield calculations assume continuation of current payment policies. Dividend cuts or suspensions could materially impact sector attractiveness, particularly affecting high-yield sectors like Telecommunications.
 
-**Assumption 3:** Volatility calculations are based on historical price movements and may not predict future risk levels, especially during periods of structural market change or unprecedented economic conditions.
+**Volatility Predictiveness:** Historical volatility calculations may not predict future risk levels, especially during periods of structural market change or unprecedented economic conditions.
 
-**Assumption 4:** Sector classifications follow standard GICS methodology, though some companies with diversified business models may not perfectly align with their assigned sector characteristics.
+**Sector Classification:** Companies follow standard GICS methodology, though diversified business models may not perfectly align with assigned sector characteristics.
 
-**Assumption 5:** Growth estimates represent consensus analyst forecasts which may be subject to significant revision based on changing economic conditions or company-specific developments.
+**Growth Estimate Reliability:** Growth projections represent consensus analyst forecasts subject to significant revision based on changing economic conditions or company-specific developments.
 
-**Assumption 6:** Outlier companies with extreme P/E ratios (>50x) or zero income generation were included in sector averages but flagged separately for risk assessment, as these may skew sector-level conclusions and require individual analysis rather than sector-based allocation decisions.
+**Outlier Treatment:** Companies with extreme P/E ratios (>50x) or zero income generation were included in sector averages but flagged separately, as these may skew sector-level conclusions and require individual rather than sector-based analysis.
 
 ---
 
