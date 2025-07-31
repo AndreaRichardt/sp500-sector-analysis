@@ -95,7 +95,7 @@ graph TD
 
 Our analysis of 505 companies across 10 sectors reveals significant performance disparities that create both opportunities and risks for our portfolio allocation strategy. **Information Technology commands premium valuations with an average P/E of 39.68 but shows moderate income efficiency, while Industrials and Financials demonstrate superior capital allocation with strong earnings generation at reasonable valuations.** **High-volatility sectors like Consumer Discretionary (59.28% volatility) and Information Technology (54.61% volatility) require careful position sizing, while defensive sectors like Utilities (31.53% volatility) and Real Estate (34.68% volatility) provide portfolio stability.** The telecommunications sector presents concerning metrics with the lowest P/E ratio (11.19) and minimal representation, suggesting potential structural challenges or value opportunities requiring deeper investigation.
 
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](Docs/Graphs/Market_overview.png)
 *Dashboard Overview - Main KPI dashboard showing: Total Companies: 505, Avg P/E: 22.79, Avg Dividend Yield: 2.74%, Avg EPS: $4.47, Avg Volatility: 48.09%, Total Market Cap: $5.56T*
 
 ---
