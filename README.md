@@ -25,14 +25,69 @@ An interactive Tableau dashboard used to report and explore sector trends can be
 
 ## Data Structure & Initial Checks
 
-Our firm's main database structure consists of four primary tables: **sector_fundamentals**, **price_volatility**, **dividend_history**, and **market_cap_data**, with a total row count of 505 records representing individual companies across 10 major sectors. A description of each table is as follows:
+This analysis is based on the S&P 500 Companies with Financial Information dataset, which was processed and transformed into specialized analytical tables for comprehensive sector analysis. The data pipeline and structure is as follows:
 
-**Sector_Fundamentals:** Contains P/E ratios, EPS, price-to-book, price-to-sales, growth estimates, and EBITDA margins for all companies  
-**Price_Volatility:** Historical price volatility calculations and price low data points  
-**Dividend_History:** Dividend yield data, payment history, and top dividend-paying securities by sector  
-**Market_Cap_Data:** Market capitalization values used for sizing and weighting analysis  
+### Source Dataset Structure
+The primary CSV contains 505 S&P 500 companies with the following fields:
+```
+Symbol | Name | Sector | Price | Price/Earnings | Dividend Yield | 
+Earnings/Share | 52 Week High | 52 Week Low | Market Cap | 
+EBITDA | Price/Sales | Price/Book
+```
 
-*[Entity Relationship Diagram placeholder]*
+### Derived Analytical Tables
+
+**sector_report** - Primary analysis table with sector-level aggregations:
+```sql
+Sector | avg_price_earning | avg_earnings_share | avg_dividend_yield | 
+eps_std_dev | company_count | max_dividend_yield | avg_price_book | 
+avg_price_sales | avg_price_volatility | avg_growth_estimate | 
+avg_ebitda_margin | top_dividend_stock_name | top_dividend_stock_symbol
+```
+
+**income_per_dollar** - Income efficiency analysis:
+```sql
+Symbol | Name | Sector | Price | Dividend_Yield | income_per_dollar
+```
+
+**volatility_analysis** - Risk assessment metrics:
+```sql
+Symbol | Name | Sector | low | high | volatility_pct
+```
+
+**valuation_outliers** - Extreme valuation identification:
+```sql
+Symbol | Name | Sector | Price | Price_Earnings | Earnings_Share
+```
+
+### Data Processing Pipeline
+
+```mermaid
+graph TD
+    A[S&P 500 Raw CSV<br/>505 Companies<br/>13 Columns] --> B[Data Cleaning & Validation]
+    B --> C[Calculated Fields<br/>Volatility, Income Efficiency]
+    C --> D[Table Creation]
+    
+    D --> E[sector_report<br/>Aggregated Metrics]
+    D --> F[income_per_dollar<br/>Efficiency Analysis]
+    D --> G[volatility_analysis<br/>Risk Metrics]
+    D --> H[valuation_outliers<br/>Extreme Cases]
+    
+    E --> I[Sector Analysis Report]
+    F --> I
+    G --> I
+    H --> I
+```
+
+### Dataset Summary
+
+| Metric | Value |
+|--------|-------|
+| Source Companies | 505 |
+| Sectors Analyzed | 10 |
+| Analytical Tables | 4 |
+| Key Calculations | Volatility %, Income per Dollar, Sector Averages |
+| Data Vintage | July 2020 |
 
 ---
 
