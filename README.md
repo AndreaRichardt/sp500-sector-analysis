@@ -204,9 +204,6 @@ Our analysis identified several companies exhibiting extreme metrics that warran
 
 These securities require enhanced due diligence, strict position limits, and frequent fundamental review due to extreme valuation metrics that create significant downside risk if growth expectations are not met or earnings fail to recover.
 
-![Outlier Analysis Dashboard](images/outlier_analysis_dashboard.png)
-*Outlier Analysis Dashboard showing top income efficiency performers, extreme volatility securities, and valuation risk categories with specific company examples*
-
 ---
 
 ## Recommendations
