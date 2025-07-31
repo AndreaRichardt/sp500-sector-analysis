@@ -116,7 +116,7 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 ![P/E Ratios by Sector](Docs/Graphs/Avg_price_earnings.png)
 
- *Average P/E by Sector - Top 3 highlighted: Information Technology (39.68), Health Care (26.28), Consumer Discretionary (25.68)*
+*Average P/E by Sector - Top 3 highlighted: Information Technology (39.68), Health Care (26.28), Consumer Discretionary (25.68)*
 
 ### Income Generation and Dividend Analysis
 
@@ -129,7 +129,7 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 **Energy Sector Opportunities:** Energy offers attractive income at 3.49% yield despite sector headwinds, with ONEOK leading at 5.44%. The sector's small 8-company representation concentrates risk but may provide value opportunities for selective investors.
 
 ![Dividend Yields by Sector](Docs/Graphs/Avg_Dividend.png)
-*Average Dividend Yield by Sector - Top 3 highlighted: Telecommunication Services (7.57%), Real Estate (3.89%), Utilities (3.72%)*
+  *Average Dividend Yield by Sector - Top 3 highlighted: Telecommunication Services (7.57%), Real Estate (3.89%), Utilities (3.72%)*
 
 ### Risk Assessment and Volatility Patterns
 
