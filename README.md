@@ -15,9 +15,7 @@ Insights and recommendations are provided on the following key areas:
 **Category 3:** Risk Assessment and Volatility Patterns  
 **Category 4:** Capital Efficiency and Investment Optimization  
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](#).
-
-Targeted SQL queries regarding various business questions can be found [here](#).
+The SQL queries used to inspect and clean the data for this analysis can be found [here](Scripts).
 
 An interactive Tableau dashboard used to report and explore sector trends can be found [here](#).
 
