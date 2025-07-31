@@ -115,6 +115,7 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 **Financial Sector Undervaluation:** Financials trade at an attractive valuation with a P/E of 17.66, below market average, while maintaining solid earnings per share of $5.19. This suggests potential undervaluation given the sector's fundamental strength and 64-company diversification.
 
 ![P/E Ratios by Sector](Docs/Graphs/Avg_price_earnings.png)
+
 *Average P/E by Sector - Top 3 highlighted: Information Technology (39.68), Health Care (26.28), Consumer Discretionary (25.68)*
 
 ### Income Generation and Dividend Analysis
@@ -127,7 +128,7 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 **Energy Sector Opportunities:** Energy offers attractive income at 3.49% yield despite sector headwinds, with ONEOK leading at 5.44%. The sector's small 8-company representation concentrates risk but may provide value opportunities for selective investors.
 
-![Dividend Yields by Sector](images/dividend_yield_by_sector.png)
+![Dividend Yields by Sector](Docs/Graphs/Avg_Dividend.png)
 *Average Dividend Yield by Sector - Top 3 highlighted: Telecommunication Services (7.57%), Real Estate (3.89%), Utilities (3.72%)*
 
 ### Risk Assessment and Volatility Patterns
