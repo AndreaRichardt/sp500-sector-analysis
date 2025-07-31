@@ -116,7 +116,7 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 ![P/E Ratios by Sector](Docs/Graphs/Avg_price_earnings.png)
 
-*Average P/E by Sector - Top 3 highlighted: Information Technology (39.68), Health Care (26.28), Consumer Discretionary (25.68)*
+ *Average P/E by Sector - Top 3 highlighted: Information Technology (39.68), Health Care (26.28), Consumer Discretionary (25.68)*
 
 ### Income Generation and Dividend Analysis
 
