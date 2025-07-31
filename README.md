@@ -129,7 +129,8 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 **Energy Sector Opportunities:** Energy offers attractive income at 3.49% yield despite sector headwinds, with ONEOK leading at 5.44%. The sector's small 8-company representation concentrates risk but may provide value opportunities for selective investors.
 
 ![Dividend Yields by Sector](Docs/Graphs/Avg_Dividend.png)
-  *Average Dividend Yield by Sector - Top 3 highlighted: Telecommunication Services (7.57%), Real Estate (3.89%), Utilities (3.72%)*
+
+*Average Dividend Yield by Sector - Top 3 highlighted: Telecommunication Services (7.57%), Real Estate (3.89%), Utilities (3.72%)*
 
 ### Risk Assessment and Volatility Patterns
 
@@ -141,7 +142,8 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 **Defensive Sector Stability:** Utilities and Real Estate demonstrate the lowest volatilities at 31.53% and 34.68% respectively, confirming their defensive characteristics. These sectors provide portfolio anchoring during market turbulence while maintaining reasonable return potential.
 
-![Volatility vs Price Low Analysis](images/volatility_price_low_scatter.png)
+![Volatility vs Price Low Analysis](Docs/Graphs/Price_low_vs_volatility.png)
+
 *Price Low vs Volatility % scatter plot with market cap sizing - showing sector clustering patterns and risk-return relationships*
 
 ### Capital Efficiency and Investment Optimization
@@ -154,10 +156,12 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 **Consumer Discretionary Earnings Power:** Consumer Discretionary delivers strong earnings at $5.25 EPS despite high volatility, indicating underlying business strength. The sector's premium valuation appears justified by earnings power, though economic sensitivity remains a key risk factor.
 
-![EPS by Sector](images/eps_by_sector.png)
+![EPS by Sector](Docs/Graphs/Avg_earnings_per_share.png)
+
 *EPS by Sector - Top 3 highlighted: Industrials ($5.52), Materials ($5.46), Consumer Discretionary ($5.25)*
 
-![Income Efficiency Analysis](images/income_efficiency_scatter.png)
+![Income Efficiency Analysis](Docs/Graphs/Income_Vs_Investment.png)
+
 *Sector Income Efficiency vs Investment Cost scatter plot with market cap sizing - showing capital allocation effectiveness across sectors*
 
 ---
