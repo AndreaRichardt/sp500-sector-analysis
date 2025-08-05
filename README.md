@@ -2,7 +2,7 @@
 
 ## Project Background
 
-As a data analyst working within our investment management firm, I have conducted a comprehensive analysis of our current portfolio universe spanning multiple market sectors. Our firm operates as an institutional investment manager with $5.56 trillion in assets under management, having been active in equity markets for over two decades. Our business model focuses on diversified sector allocation strategies, utilizing quantitative analysis to optimize risk-adjusted returns for our institutional clients including pension funds, endowments, and sovereign wealth funds.
+As a data analyst working within our investment management firm, I have conducted a detailed analysis of our current portfolio covering multiple market sectors. Our firm operates as an investment manager with $24.87 trillion in assets under management, having been active in stock markets for over two decades. Our business model focuses on spreading investments across different sectors, using data analysis to improve returns while managing risk for our clients including pension funds, endowments, and sovereign wealth funds.
 
 **Data Source:** This analysis is based on S&P 500 Companies with Financial Information dataset from Kaggle (https://www.kaggle.com/datasets/paytonfisher/sp-500-companies-with-financial-information/data). The dataset was last updated in July 2020 and provides comprehensive financial metrics across all S&P 500 constituents.
 
@@ -17,7 +17,7 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](Scripts).
 
-An interactive Tableau dashboard used to report and explore sector trends can be found [here](#).
+An interactive Tableau dashboard used to report and explore sector trends can be found [here]([#](https://public.tableau.com/views/Sp500_17544147445900/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)).
 
 ---
 
@@ -93,7 +93,7 @@ graph TD
 
 ### Overview of Findings
 
-Our analysis of 505 companies across 10 sectors reveals significant performance disparities that create both opportunities and risks for our portfolio allocation strategy. **Information Technology commands premium valuations with an average P/E of 39.68 but shows moderate income efficiency, while Industrials and Financials demonstrate superior capital allocation with strong earnings generation at reasonable valuations.** **High-volatility sectors like Consumer Discretionary (59.28% volatility) and Information Technology (54.61% volatility) require careful position sizing, while defensive sectors like Utilities (31.53% volatility) and Real Estate (34.68% volatility) provide portfolio stability.** The telecommunications sector presents concerning metrics with the lowest P/E ratio (11.19) and minimal representation, suggesting potential structural challenges or value opportunities requiring deeper investigation.
+Our analysis of 505 companies across 10 sectors shows significant performance differences that create both opportunities and risks for our investment strategy. Information Technology has high valuations with an average P/E of 39.68 but shows moderate income efficiency, while Industrials and Financials show better capital use with strong earnings at reasonable prices. High-risk sectors like Consumer Discretionary (59.28% price swings) and Information Technology (54.61% price swings) need careful position sizing, while safer sectors like Utilities (31.53% price swings) and Real Estate (34.68% price swings) provide stability. The telecommunications sector shows concerning numbers with the lowest P/E ratio (11.19) and few companies, suggesting potential problems or value opportunities that need deeper review.
 
 ![Dashboard Overview](Docs/Graphs/Market_overview.png)
 *Dashboard Overview - Main KPI dashboard showing: Total Companies: 505, Avg P/E: 22.79, Avg Dividend Yield: 2.74%, Avg EPS: $4.47, Avg Volatility: 48.09%, Total Market Cap: $5.56T*
@@ -104,13 +104,13 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 ### Market Valuation and Growth Metrics
 
-**Technology Premium Valuations:** Information Technology trades at a significant premium with an average P/E ratio of 39.68, nearly 75% higher than the market average of 22.79. This reflects strong growth expectations but creates valuation risk if earnings disappoint. The sector's growth estimate of 101.16% supports the premium but requires careful monitoring.
+**Technology Premium Valuations:** Information Technology trades at a high premium with an average P/E ratio of 39.68, nearly 75% higher than the market average of 22.79. This reflects strong growth expectations but creates price risk if earnings disappoint. The sector's growth estimate of 101.16% supports the high price but needs careful watching.
 
-**Telecommunications Value Anomaly:** Telecommunications presents an anomaly with the lowest P/E ratio at 11.19, potentially indicating either deep value or structural decline. With only 3 companies in our universe and a growth estimate of 54.58%, this sector warrants strategic evaluation for contrarian positioning.
+**Telecommunications Value Anomaly:** Telecommunications shows unusual patterns with the lowest P/E ratio at 11.19, potentially showing either good value or declining business. With only 3 companies in our data and a growth estimate of 54.58%, this sector needs strategic review for contrarian investing.
 
-**Consumer Discretionary Growth Betting:** Consumer Discretionary commands the second-highest P/E at 25.68 with the highest growth estimate at 187.77%, suggesting investors are betting heavily on economic recovery and consumer spending normalization. The 79-company representation provides good diversification within the sector.
+**Consumer Discretionary Growth Betting:** Consumer Discretionary has the second-highest P/E at 25.68 with the highest growth estimate at 187.77%, suggesting investors are betting heavily on economic recovery and consumer spending returning to normal. The 79-company representation provides good spread within the sector.
 
-**Financial Sector Undervaluation:** Financials trade at an attractive valuation with a P/E of 17.66, below market average, while maintaining solid earnings per share of $5.19. This suggests potential undervaluation given the sector's fundamental strength and 64-company diversification.
+**Financial Sector Undervaluation:** Financials trade at attractive prices with a P/E of 17.66, below market average, while maintaining solid earnings per share of $5.19. This suggests potential undervaluation given the sector's strong fundamentals and 64-company spread.
 
 ![P/E Ratios by Sector](Docs/Graphs/Avg_price_earnings.png)
 
@@ -118,13 +118,13 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 ### Income Generation and Dividend Analysis
 
-**Telecommunications Yield Leadership:** Telecommunications leads dividend generation with an exceptional 7.57% average yield, anchored by CenturyLink's 12.66% yield. However, the high yield may signal dividend sustainability concerns given the sector's low growth profile and minimal market representation.
+**Telecommunications Yield Leadership:** Telecommunications leads dividend payments with an exceptional 7.57% average yield, led by CenturyLink's 12.66% yield. However, the high yield may signal dividend payment concerns given the sector's low growth and minimal market presence.
 
-**Real Estate Income Strength:** Real Estate delivers strong income with a 3.89% average yield, led by Kimco Realty at 7.71%. The sector's 33-company representation and moderate volatility (34.68%) make it attractive for income-focused allocations while providing inflation protection.
+**Real Estate Income Strength:** Real Estate delivers strong income with a 3.89% average yield, led by Kimco Realty at 7.71%. The sector's 33-company representation and moderate price swings (34.68%) make it attractive for income-focused investments while providing protection against inflation.
 
-**Utilities Defensive Profile:** Utilities maintain their defensive income profile with a 3.72% yield, topped by SCANA Corp at 6.68%. The sector's low volatility (31.53%) and consistent EBITDA margins (47.11%) support dividend sustainability and capital preservation objectives.
+**Utilities Defensive Profile:** Utilities maintain their safe income profile with a 3.72% yield, topped by SCANA Corp at 6.68%. The sector's low price swings (31.53%) and consistent profit margins (47.11%) support dividend payments and capital protection goals.
 
-**Energy Sector Opportunities:** Energy offers attractive income at 3.49% yield despite sector headwinds, with ONEOK leading at 5.44%. The sector's small 8-company representation concentrates risk but may provide value opportunities for selective investors.
+**Energy Sector Opportunities:** Energy offers attractive income at 3.49% yield despite sector challenges, with ONEOK leading at 5.44%. The sector's small 8-company representation creates concentrated risk but may provide value opportunities for selective investors.
 
 ![Dividend Yields by Sector](Docs/Graphs/Avg_Dividend.png)
 
@@ -140,25 +140,25 @@ Our analysis of 505 companies across 10 sectors reveals significant performance 
 
 **Defensive Sector Stability:** Utilities and Real Estate demonstrate the lowest volatilities at 31.53% and 34.68% respectively, confirming their defensive characteristics. These sectors provide portfolio anchoring during market turbulence while maintaining reasonable return potential.
 
-![Volatility vs Price Low Analysis](Docs/Graphs/Price_low_vs_volatility.png)
+![Volatility vs Price Low Analysis](Docs/Graphs/Volatility.png)
 
 *Price Low vs Volatility % scatter plot with market cap sizing - showing sector clustering patterns and risk-return relationships*
 
 ### Capital Efficiency and Investment Optimization
 
-**Industrial Sector Excellence:** Industrials demonstrate superior earnings efficiency with $5.52 EPS, the highest among all sectors, while maintaining reasonable volatility at 45.58%. The sector's 65-company representation and strong EBITDA margins (22.28%) indicate operational excellence across the industrial base.
+**Industrial Sector Excellence:** Industrials show superior earnings efficiency with $5.52 EPS, the highest among all sectors, while maintaining reasonable price swings at 45.58%. The sector's 65-company representation and strong profit margins (22.28%) indicate operational excellence across the industrial base.
 
-**Materials Capital Deployment:** Materials show strong earnings generation at $5.46 EPS with moderate volatility (41.09%), suggesting efficient capital deployment. However, the sector's limited 23-company representation concentrates exposure and requires careful security selection.
+**Materials Capital Deployment:** Materials show strong earnings at $5.46 EPS with moderate price swings (41.09%), suggesting efficient capital use. However, the sector's limited 23-company representation concentrates exposure and requires careful stock selection.
 
-**Financial Sector Value Opportunity:** Financials generate solid earnings at $5.19 EPS while trading at attractive valuations (17.66 P/E). The sector's 64-company diversification and moderate volatility (39.90%) create an appealing risk-adjusted opportunity for value-oriented strategies.
+**Financial Sector Value Opportunity:** Financials generate solid earnings at $5.19 EPS while trading at attractive prices (17.66 P/E). The sector's 64-company spread and moderate price swings (39.90%) create an appealing risk-adjusted opportunity for value-oriented strategies.
 
-**Consumer Discretionary Earnings Power:** Consumer Discretionary delivers strong earnings at $5.25 EPS despite high volatility, indicating underlying business strength. The sector's premium valuation appears justified by earnings power, though economic sensitivity remains a key risk factor.
+**Consumer Discretionary Earnings Power:** Consumer Discretionary delivers strong earnings at $5.25 EPS despite high price swings, indicating underlying business strength. The sector's high prices appear justified by earnings power, though economic sensitivity remains a key risk factor.
 
 ![EPS by Sector](Docs/Graphs/Avg_earnings_per_share.png)
 
 *EPS by Sector - Top 3 highlighted: Industrials ($5.52), Materials ($5.46), Consumer Discretionary ($5.25)*
 
-![Income Efficiency Analysis](Docs/Graphs/Income_Vs_Investment.png)
+![Income Efficiency Analysis](Docs/Graphs/Sector_Efficiency.png)
 
 *Sector Income Efficiency vs Investment Cost scatter plot with market cap sizing - showing capital allocation effectiveness across sectors*
 
