@@ -17,7 +17,7 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](Scripts).
 
-An interactive Tableau dashboard used to report and explore sector trends can be found [here]([#](https://public.tableau.com/views/Sp500_17544147445900/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)).
+An interactive Tableau dashboard used to report and explore sector trends can be found [here](https://public.tableau.com/views/Sp500_17544147445900/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ---
 
@@ -95,7 +95,7 @@ graph TD
 
 Our analysis of 505 companies across 10 sectors shows significant performance differences that create both opportunities and risks for our investment strategy. Information Technology has high valuations with an average P/E of 39.68 but shows moderate income efficiency, while Industrials and Financials show better capital use with strong earnings at reasonable prices. High-risk sectors like Consumer Discretionary (59.28% price swings) and Information Technology (54.61% price swings) need careful position sizing, while safer sectors like Utilities (31.53% price swings) and Real Estate (34.68% price swings) provide stability. The telecommunications sector shows concerning numbers with the lowest P/E ratio (11.19) and few companies, suggesting potential problems or value opportunities that need deeper review.
 
-![Dashboard Overview](Docs/Graphs/Market_overview.png)
+![Dashboard Overview](Docs/Graphs/Market_overview_1.png)
 *Dashboard Overview - Main KPI dashboard showing: Total Companies: 505, Avg P/E: 22.79, Avg Dividend Yield: 2.74%, Avg EPS: $4.47, Avg Volatility: 48.09%, Total Market Cap: $5.56T*
 
 ---
